@@ -3,6 +3,8 @@
 #include "../Logger/Logger.h"
 #include "../Calculator/Calculator.h"
 #include "../VideoAlgo/AlgoSetter.h"
+#include "../VideoAlgo/eAlgo.h"
+
 using namespace std;
 
 int main()
@@ -16,8 +18,11 @@ int main()
 
 
     //VideoQuality
-    AlgoSetter* algoSetter = new AlgoSetter(VideoQuality::m_SD);
-    cout << algoSetter->getPixels();
+    AlgoSetter* algoSetter = new AlgoSetter(VideoQuality::e_Quality::m_FHD);
+    cout << algoSetter->getPixels().Quality<<endl;
+
+    AlgoSetter* algoSetter2 = new AlgoSetter(VideoQuality::e_Quality::m_SD);
+    cout << algoSetter2->getPixels().Quality<<endl;
     
 
 }

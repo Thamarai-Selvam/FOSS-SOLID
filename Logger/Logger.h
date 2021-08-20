@@ -26,7 +26,6 @@ private:
     static Logger* m_Logger;
     string m_logFile;
 
-    friend class ILog;
 };
 
 

@@ -133,7 +133,7 @@
       <AdditionalIncludeDirectories>..\x64\Release\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Logger.lib</AdditionalDependencies>
+      <AdditionalDependencies>Logger.lib;VideoAlgo.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\x64\Release\</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
