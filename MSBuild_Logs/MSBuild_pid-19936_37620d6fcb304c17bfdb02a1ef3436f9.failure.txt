@@ -1,0 +1,8 @@
+UNHANDLED EXCEPTIONS FROM PROCESS 19936:
+=====================
+8/26/2021 11:59:22 PM
+System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.CheckWriteOperations()
+   at System.IO.Pipes.PipeStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Build.BackEnd.NodeEndpointOutOfProcBase.RunReadLoop(Stream localReadPipe, Stream localWritePipe, ConcurrentQueue`1 localPacketQueue, AutoResetEvent localPacketAvailable, AutoResetEvent localTerminatePacketPump)
+===================

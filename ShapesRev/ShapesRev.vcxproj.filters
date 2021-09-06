@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AlgoSetter.h">
+    <ClInclude Include="IShape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="eAlgo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AlgoSetter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

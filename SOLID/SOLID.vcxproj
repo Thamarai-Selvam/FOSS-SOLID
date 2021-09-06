@@ -145,11 +145,23 @@
     <ClCompile Include="SOLID.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BirdsRev\BirdsRev.vcxproj">
+      <Project>{b67b1f5b-732d-40da-bb04-c127db44f197}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Birds\Birds.vcxproj">
+      <Project>{33ab9a2f-8fdf-4304-95f3-3dc676496f88}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Calculator\Calculator.vcxproj">
       <Project>{c87ad1b4-187b-4b8b-af5a-78b354a7a224}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Printer\Printer.vcxproj">
+      <Project>{2c430e25-1af9-45a5-9c53-706076b7d82d}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\VideoAlgo\VideoAlgo.vcxproj">
       <Project>{5fe1a17c-8d77-4480-9d8c-9dddc0ba638f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VideoAlgo_OCP\VideoAlgo_OCP.vcxproj">
+      <Project>{d4e46ab7-7b83-420f-ab1c-11114ef0f77c}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

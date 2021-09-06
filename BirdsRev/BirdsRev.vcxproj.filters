@@ -15,15 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AlgoSetter.h">
+    <ClInclude Include="FlyingBirds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="eAlgo.h">
+    <ClInclude Include="SwimmingBirds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Birds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Penguin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AlgoSetter.cpp">
+    <ClCompile Include="FlyingBirds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SwimmingBirds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Birds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Penguin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

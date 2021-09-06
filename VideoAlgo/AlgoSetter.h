@@ -5,7 +5,7 @@ class AlgoSetter
 {
 public:
 	AlgoSetter(VideoQuality::e_Quality vQual) : m_vQual(vQual) {}
-	VideoQuality::VideoData getPixels();
+	VideoQuality::VideoData getVideoData();
 private:
 	VideoQuality::e_Quality m_vQual;
 };

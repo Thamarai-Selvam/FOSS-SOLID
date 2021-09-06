@@ -1,7 +1,6 @@
-#include "pch.h"
 #include "AlgoSetter.h"
 
-VideoQuality::VideoData AlgoSetter::getPixels()
+VideoQuality::VideoData AlgoSetter::getVideoData()
 {
     switch (m_vQual) {
         case VideoQuality::e_Quality::m_SD:
@@ -16,6 +15,8 @@ VideoQuality::VideoData AlgoSetter::getPixels()
             return VideoQuality::VideoData{ vQuality.m_UHD, vOtherNames.m_UHD, vAspectRatio.m_UHD };
         case VideoQuality::e_Quality::m_4K:
             return VideoQuality::VideoData{ vQuality.m_4K, vOtherNames.m_4K, vAspectRatio.m_4K };
+        case VideoQuality::e_Quality::m_8K:
+            return VideoQuality::VideoData{ vQuality.m_8K, vOtherNames.m_8K, vAspectRatio.m_8K };
         default:
             return VideoQuality::VideoData{"Not Defined", "Not Defined" ,"Not Defined"};
     }

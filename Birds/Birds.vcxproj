@@ -18,13 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="Duck.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Penguin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="Penguin.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5fe1a17c-8d77-4480-9d8c-9dddc0ba638f}</ProjectGuid>
-    <RootNamespace>VideoAlgo</RootNamespace>
+    <ProjectGuid>{33ab9a2f-8fdf-4304-95f3-3dc676496f88}</ProjectGuid>
+    <RootNamespace>Birds</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>VideoAlgo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,13 +161,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="AlgoSetter.h" />
-    <ClInclude Include="eAlgo.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AlgoSetter.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
